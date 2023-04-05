@@ -3,7 +3,7 @@ import React from 'react'
 const HeaderTitle = () => {
   return (
     <div>
-        <h1>Dolarblack.com</h1>
+        <h1>Blackdolar.com</h1>
         <h5>Todas las cotizaciones del dolar al instante</h5>
     </div>
   )
