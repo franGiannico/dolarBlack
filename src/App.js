@@ -1,5 +1,6 @@
 
 import './App.scss';
+import Footer from './Footer';
 import HeaderTitle from './HeaderTitle';
 import Iframe from './Iframe';
 
@@ -27,6 +28,7 @@ const App = () => {
           <Iframe title='dolarSolidario' classStyle='dolarBoxStyle' link={"https://dolarhoy.com/i/cotizaciones/banco-nacion"} /> 
         </div>          
       </div>
+      <Footer />
     </div>    
   );
 }
