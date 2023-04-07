@@ -41,6 +41,9 @@ $container-max-widths: (
 
 .header {
   height: 3rem;
+  display    : flex;
+  position   : fixed;
+  top        : 0;
 }
 
 
