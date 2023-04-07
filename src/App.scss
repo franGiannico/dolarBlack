@@ -39,6 +39,11 @@ $container-max-widths: (
   xl: 1140px
 );
 
+.header {
+  height: 3rem;
+}
+
+
 div {
   display: grid;
 }
