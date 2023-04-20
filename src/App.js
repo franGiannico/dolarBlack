@@ -3,12 +3,18 @@ import './App.scss';
 import Footer from './Footer';
 import HeaderTitle from './HeaderTitle';
 import Iframe from './Iframe';
+import ValorDolarBlue from './ValorDolarBlue';
+import ValorDolarBlueCompra from './ValorDolarBlueCompra';
+import ValorDolarBluePromedio from './ValorDolarBluePromedio';
 
 const App = () => { 
   return (  
     <div>
       <HeaderTitle />
       <div className='container'>
+        <ValorDolarBlue />
+        <ValorDolarBlueCompra />
+        <ValorDolarBluePromedio />
         <div className='row'>
           <Iframe title='dolarBlue'  classStyle='dolarBoxStyle' link={"https://dolarhoy.com/i/cotizaciones/dolar-blue"} />
         </div>
