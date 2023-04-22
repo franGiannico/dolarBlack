@@ -131,10 +131,18 @@ div {
   margin-bottom : 0;
 }
 
-.p_valorDolar {
+.p-valorDolar {
   color: #ffffff;
   font-size: 20px;
   display: flex;
   margin-left: 4rem;
   margin-right: 2rem;
+  text-align: center;
+}
+
+.div-dolar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

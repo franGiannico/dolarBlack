@@ -14,8 +14,8 @@ function ValorDolarBlue() {
   }, []);
 
   return (
-    <div>
-      <p className="p_valorDolar">Dólar blue para la venta: {blueDollarValue}</p>
+    <div className="div-dolar">
+      <p className="p-valorDolar">Dólar blue para la venta: {blueDollarValue}</p>
     </div>
   );
 }

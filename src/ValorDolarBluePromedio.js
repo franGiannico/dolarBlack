@@ -14,8 +14,8 @@ function ValorDolarBluePromedio() {
   }, []);
 
   return (
-    <div>
-      <p className="p_valorDolar">Promedio: {blueDollarValue}</p>
+    <div className="div-dolar">
+      <p className="p-valorDolar">Promedio: {blueDollarValue}</p>
     </div>
   );
 }
