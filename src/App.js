@@ -12,10 +12,12 @@ const App = () => {
     <div>
       <HeaderTitle />
       <div className='container'>
-        <ValorDolarBlue />
-        <ValorDolarBlueCompra />
-        <ValorDolarBluePromedio />
-        <div className='row'>
+        <div className='dolarBoxStyle' >
+          <ValorDolarBlue />
+          <ValorDolarBlueCompra />
+          <ValorDolarBluePromedio />
+        </div>
+        {/* <div className='row'>
           <Iframe title='dolarBlue'  classStyle='dolarBoxStyle' link={"https://dolarhoy.com/i/cotizaciones/dolar-blue"} />
         </div>
         <div className='row'>
@@ -32,7 +34,7 @@ const App = () => {
         </div> 
         <div className='row'> 
           <Iframe title='dolarSolidario' classStyle='dolarBoxStyle' link={"https://dolarhoy.com/i/cotizaciones/banco-nacion"} /> 
-        </div>          
+        </div>           */}
       </div>
       <Footer />
     </div>    
